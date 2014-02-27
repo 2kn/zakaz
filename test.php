@@ -1,5 +1,10 @@
 <php
 
-echo "test2";
+function hello($text)
+{
+	echo $text;
+}
+
+hello("test");
 
 ?>
